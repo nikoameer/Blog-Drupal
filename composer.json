@@ -19,6 +19,7 @@
         "drupal/core-composer-scaffold": "^9.5",
         "drupal/core-project-message": "^9.5",
         "drupal/core-recommended": "^9.5",
+        "drupal/next": "^1.6",
         "drush/drush": "^11.5"
     },
     "conflict": {
@@ -31,7 +32,8 @@
             "composer/installers": true,
             "drupal/core-composer-scaffold": true,
             "drupal/core-project-message": true,
-            "dealerdirect/phpcodesniffer-composer-installer": true
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "cweagans/composer-patches": true
         },
         "sort-packages": true
     },
@@ -90,6 +92,14 @@
                 "  * Remove the plugin that prints this message:",
                 "      composer remove drupal/core-project-message"
             ]
+        },
+        "patches": {
+            "drupal/subrequests": {
+                "#3049395 Get same results on different request": "https://www.drupal.org/files/issues/2022-12-06/subrequests-3049395-chnage-request-type-47.patch"
+            },
+            "drupal/decoupled_router": {
+                "#3111456 Unable to resolve path on node in other language than default": "https://www.drupal.org/files/issues/2023-03-22/decouple_router-3111456-resolve-language-issue-63--get-translation.patch"
+            }
         }
     }
 }
