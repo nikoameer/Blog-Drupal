@@ -21,3 +21,4 @@ console
 
 # Miscellanious ignored files
 .DS_Store
+db-dumps/*
