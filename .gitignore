@@ -22,3 +22,12 @@ console
 # Miscellanious ignored files
 .DS_Store
 db-dumps/*
+
+#Ignore keys and config files from OAuth settings
+private.key
+public.key
+web.config
+
+# Ignore .htacess
+.htaccess
+
