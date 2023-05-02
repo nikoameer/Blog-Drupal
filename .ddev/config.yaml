@@ -153,7 +153,7 @@ web_environment: []
 # instead of editing /etc/hosts
 # Defaults to true
 
-# project_tld: ddev.site
+project_tld: local
 # The top-level domain used for project URLs
 # The default "ddev.site" allows DNS lookup via a wildcard
 # If you prefer you can change this to "ddev.local" to preserve
