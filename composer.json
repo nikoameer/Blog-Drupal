@@ -21,6 +21,7 @@
         "drupal/core-recommended": "^9.5",
         "drupal/gin": "^3.0@rc",
         "drupal/gin_toolbar": "^1.0@rc",
+        "drupal/jsonapi_extras": "^3.23",
         "drupal/next": "^1.6",
         "drupal/paragraphs": "^1.15",
         "drush/drush": "^11.5"
