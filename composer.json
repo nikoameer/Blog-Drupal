@@ -24,6 +24,7 @@
         "drupal/jsonapi_extras": "^3.23",
         "drupal/next": "^1.6",
         "drupal/paragraphs": "^1.15",
+        "drupal/structure_sync": "^2.0",
         "drush/drush": "^11.5"
     },
     "conflict": {
