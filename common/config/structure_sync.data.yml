@@ -1,0 +1,17 @@
+blocks:
+  -
+    info: 'About me'
+    langcode: en
+    uuid: bb067f12-4099-4d79-9c93-706dcc5c83c5
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: '<p>Hi, I am Nikolas an ethusiatic Frontend web developer who likes to turn layouts and designs into functional and accessible website. I work with modern web libraries like React, TypeScript with Drupal as Headless CMS.&nbsp;</p><p>&nbsp;</p>'
+          summary: ''
+          format: basic_html
+menus: {  }
+taxonomies:
+  tags: {  }
